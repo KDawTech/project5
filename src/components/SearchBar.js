@@ -1,12 +1,14 @@
-const SearchBar = ({ search, setSearch }) => (
+const SearchBar = ({ searchTerm, setSearchTerm }) => {
+  return (
     <input
       type="text"
       placeholder="Search city..."
-      value={search}
-      onChange={e => setSearch(e.target.value)}
-      style={{ padding: '10px', marginBottom: '1rem', width: '60%' }}
+      value={searchTerm}
+      onChange={(e) => setSearchTerm(e.target.value)}
     />
   );
-  
-  export default SearchBar;
+};
+
+export default SearchBar;
+
   
