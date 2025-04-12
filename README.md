@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Web Development Project 6 Part 2 - WeatherDash 🌤️
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Submitted by: **Kevon Dawkins**
 
-## Available Scripts
+This web app: **Provides live weather data for major cities using the WeatherBit API. Users can search, filter by AQI and temperature, and view detailed charts showing air quality and temperature trends.**
 
-In the project directory, you can run:
+Time spent: **15hrs**
 
-### `npm start`
+## Required Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The following **required** functionality is completed:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [x] **Clicking on an item in the list view displays more details about it**
+  - Clicking on an item in the dashboard list navigates to a detail view for that item
+  - Detail view includes extra information about the item not included in the dashboard view
+  - The same sidebar is displayed in detail view as in dashboard view
+  - ✅ *Sidebar is visible in the detail view recording*
 
-### `npm test`
+- [x] **Each detail view of an item has a direct, unique URL link to that item’s detail view page**
+  - ✅ *URL bar shown in walkthrough to demonstrate unique routing*
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [x] **The app includes at least two unique charts developed using the fetched data that tell an interesting story**
+  - 1. Bar chart of city temperature data
+  - 2. Line chart of AQI values
 
-### `npm run build`
+## Optional Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [x] The site’s customized dashboard contains more content that explains what is interesting about the data
+  - Includes descriptions, average stats, and filters with sliders and dropdowns
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [x] The site allows users to toggle between different data visualizations
+  - User can switch between bar and line chart in the detail view
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Additional Features
 
-### `npm run eject`
+- Responsive layout using CSS flexbox and media queries
+- Multiple filters working together: search, AQI dropdown, and max temperature slider
+- Hover animations for weather cards
+- Dark-themed dashboard for visual clarity
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Video Walkthrough
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Here's a walkthrough of implemented user stories:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<img src='https://github.com/KDawTech/project5/blob/main/project5%20part2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Notes
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Challenges included:
+- Fixing API provisioning delays from WeatherBit
+- Managing component state across dynamic routes
+- Resolving async data rendering before chart load
 
-### Code Splitting
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    Copyright 2025 Kevon Dawkins
 
-### Analyzing the Bundle Size
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+        http://www.apache.org/licenses/LICENSE-2.0
 
-### Making a Progressive Web App
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
